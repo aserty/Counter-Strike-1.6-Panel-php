@@ -1,0 +1,9 @@
+<?php
+$translate["en_js"] = array(
+	0 => "Whait...",
+	1 => "Invalid IP",
+	2 => "Invalid Port",
+	3 => "Oops! Error :(",
+	4 => "Complete all fields.",
+	5 => "Ok :)",
+);

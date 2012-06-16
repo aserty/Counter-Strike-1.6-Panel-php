@@ -1,0 +1,29 @@
+/*
+	Counter Strike 1.6 Panel Online
+		Author: elvago9 <gabrieel09@gmail.com>
+*/
+
+@font-face{
+	font-family: "Aller Regular";
+	src: url("Aller_Rg.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Aller Italic";
+	src: url("Aller_It.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Aller Bold";
+	src: url("Aller_Bd.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Aller Bold Italic";
+	src: url("Aller_BdIt.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,213 @@
+/*
+	Counter Strike 1.6 Panel Online
+		Author: elvago9 <gabrieel09@gmail.com>
+*/
+
+@import url('../fonts/fonts.css');
+
+body{
+	background: #2f2f2f url(../images/bg.png) repeat;
+	font-family: "Aller Regular";
+	font-size: 14px;
+	position: relative;
+	color: white;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+b, strong{
+	font-family: "Aller Bold";
+	font-weight: normal;
+}
+.clearfix {
+  display: inline-block;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.nav{
+	position: fixed;
+	bottom: 5px;
+	left: 5px;
+}
+.nav a{
+	color: white;
+	text-decoration: none;
+}
+.nav a:hover{
+	text-decoration: underline;
+}
+.cs{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 252px;
+	height: 190px;
+	background: url(../images/cs.png);
+}
+.cs .main{
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}
+
+.tabs{
+	width: 800px;
+	margin: auto;
+}
+.tabs .buttons{
+	height: 26px;
+}
+.tabs .buttons .button{
+	float: left;
+	height: 100%;
+	text-align: center;
+	padding: 2px 5px;
+	min-width: 80px;
+	background: url(../images/bg_tabs.png) repeat-x 0 -0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding-top: 6px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 20px;
+}
+.tabs .buttons .button.selected{
+	background-position: 0 -34px;
+}
+.tabs .tab{
+	display: none;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+}
+.header .hr{
+	width: 85%;
+	height: 1px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.6);
+	border-bottom: solid 1px rgba(225, 225, 225, 0.2);
+}
+.header .logo{
+	margin: auto;
+	width: 400px;
+	height: 90px;
+	background: url(../images/logo.png) no-repeat;
+	margin-top: 10px;
+	display: block;
+}
+
+input[type="text"], input[type="password"], select, textarea{
+	width: 200px;
+	height: 20px;
+	padding: 3px 1px;
+	background: rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	outline: 0 none;
+	border: solid 1px rgba(0, 0, 0, 0.4);
+	color: #666666;
+}
+input[type="text"]:focus, input[type="password"]:focus, select:focus, textarea:focus{
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(37, 116, 187, 0.3);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(37, 116, 187, 0.3);
+	box-shadow: 0px 0px 3px 1px rgba(37, 116, 187, 0.3);
+}
+input[type="text"].error, input[type="password"].error, select.error, textarea.error{
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(255, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(255, 0, 0, 0.2);
+	box-shadow: 0px 0px 3px 1px rgba(255, 0, 0, 0.2);
+}
+select{
+	height: 30px;
+	background: white;
+}
+textarea{
+	width: 400px;
+	height: 200px;
+}
+
+.content{
+	width: 1000px;
+	margin: auto;
+}
+
+form{
+	position: relative;
+	width: 800px;
+}
+form .sect{
+	width: 100%;
+	margin-bottom: 5px;
+}
+form .sect .description{
+	float: left;
+	width: 100px;
+	padding-top: 6px;
+	color: white;
+	font-family: "Aller Bold";
+}
+form .sect .description.des{
+	color: #646464;
+	width: 130px;
+	padding-top: 13px;
+}
+form .sect .input{
+	float: right;
+	width: 200px;
+}
+form .sect .input.button{
+	width: 150px;
+}
+
+
+form.login{
+	width: 300px;
+	margin: auto;
+}
+form.config_basic{
+	width: 400px;
+}
+form.config_basic .sect .description{width: 180px;}
+
+.button-blue {
+	background: #00badc;
+	background: -moz-linear-gradient(top, #00badb 0%, #0095b1 100%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00badb), to(#0095b1));
+	border: 1px solid #00788e;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: white;
+	font-family: "Aller Bold";
+	font-size: 14px;
+	padding-top: 10px; padding-bottom: 10px;
+	text-align: center;
+	text-shadow: 0 1px 1px #028299;
+	-webkit-background-clip: padding-box;
+	-moz-user-select: none;
+   -webkit-user-select: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+.button-blue:hover {
+	background: -moz-linear-gradient(top, #55d1e8 0%, #2ba8be 100%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#55d1e8), to(#2ba8be));
+	text-shadow: 0 1px 1px #2296aa;
+}
+.button-blue:active {
+	background: -moz-linear-gradient(top, #00badb 0%, #0095b1 100%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00badb), to(#0095b1));
+}

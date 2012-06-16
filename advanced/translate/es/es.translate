@@ -1,0 +1,28 @@
+<?php
+$translate["es"] = array(
+	0 => "Principal",
+	1 => "Configuración",
+	2 => "Estadisticas",
+	3 => "Jugadores",
+	4 => "Restricciones",
+	5 => "Consola",
+	
+	6 => "Nombre de host",
+	
+	7 => "Acerca",
+	8 => "Salir", 
+	9 => "Conectado a",
+	10 => "Mapa",
+	11 => "Tiempo de actividad",
+	12 => "Red",
+	13 => "Contraseña",
+	14 => "Guardar",
+);
+$translate["es_js"] = array(
+	0 => "Espere...",
+	1 => "IP invalida",
+	2 => "Puerto invalido",
+	3 => "Oops! Error :(",
+	4 => "Complete todos los campos.",
+	5 => "Ok :)",
+);
